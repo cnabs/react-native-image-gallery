@@ -65,7 +65,7 @@ export default class ImageLoad extends Component {
               <ActivityIndicator
                 style={styles.activityIndicator}
                 size={loadingStyle ? loadingStyle.size : "large"}
-                color={loadingStyle ? loadingStyle.color : "#333"}
+                color={loadingStyle ? loadingStyle.color : "white"}
               />
             )}
             <Image
