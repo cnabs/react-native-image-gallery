@@ -273,6 +273,7 @@ export default class Gallery extends PureComponent {
 
         return (
             <ViewPager
+              loadingStyle = {this.props.loadingStyle}
               {...this.props}
               flatListProps={flatListProps}
               ref={'galleryViewPager'}
